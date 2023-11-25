@@ -5,6 +5,8 @@ import { useState } from "react"
 const Auth = () => {
 
     const [email, setEmail] = useState('')
+    const [name, setName] = useState('')
+    const [pswd, setPswd] = useState('')
 
   return (
     <div className="relative h-full w-full bg-[url('/images/hero.jpg')] bg-no-repeat bg-fixed bg-cover" >
@@ -17,7 +19,9 @@ const Auth = () => {
                     Sign In
                 </h2>
                 <div className="flex flex-col gap-4">
-                    <Input id="email" label="Email" onChange={e => setEmail(e.target.value)} value="" type="email"/>
+                    <Input id="name" label="Username" onChange={(e: any) => setName(e.target.value)} value={name} type="text"/>
+                    <Input id="email" label="Email" onChange={(e: any) => setEmail(e.target.value)} value={email} type="email"/>
+                    <Input id="password" label="Password" onChange={(e: any) => setPswd(e.target.value)} value={pswd} type="password"/>
                 </div>
                 </div>
             </div>
