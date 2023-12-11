@@ -1,4 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack Netflix Clone
+
+## This project is a full-stack clone of Netflix built using React, Tailwind CSS, Next.js, Prisma, MongoDB, NextAuth, and Vercel. It features functionalities like:
+
+- User Authentication: Login and register using email and password or Google OAuth.
+- Movie Browsing: Explore a list of trending movies and watch trailers.
+- Personalized Dashboard: View your profile, favorites, and watch history.
+- Movie Details: Get detailed information about each movie, including synopsis, cast, and crew.
+- Responsive Design: Works seamlessly across all devices.
+
+## The project utilizes various technologies:
+
+- Frontend: React, Tailwind CSS, Next.js
+- Backend: Prisma, MongoDB
+- Authentication: NextAuth
+- Deployment: Vercel
+
+## This project is a great way to learn and practice various web development skills, including:
+
+- Building full-stack applications
+- Implementing user authentication
+- Working with databases
+- Designing responsive user interfaces
+- Deploying applications to production
+
+## Here are some of the key features of the project:
+
+- Clean and modern design: The project uses Tailwind CSS to create a clean and modern user interface.
+- Responsive design: The project is responsive and works seamlessly across all devices.
+- User authentication: Users can login and register using email and password or Google OAuth.
+- Movie browsing: Users can browse a list of trending movies and watch trailers.
+- Personalized dashboard: Users can view their profile, favorites, and watch history.
+- Movie details: Users can get detailed information about each movie, including synopsis, cast, and crew.
+- Search: Users can search for movies by title.
+- Add to favorites: Users can add movies to their favorites list.
+- Watch history: Users can view their watch history.
+- Deployment: The project is deployed to Vercel, which makes it easy to share and access.
 
 ## Getting Started
 
