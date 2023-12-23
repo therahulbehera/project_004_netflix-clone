@@ -1,6 +1,7 @@
 import React from "react";
 import { NextPageContext } from "next";
 import { getSession } from "next-auth/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import Navbar from "@/components/Navbar";
 import Billboard from "@/components/Billboard";
@@ -34,6 +35,7 @@ const Home = () => {
 
   return (
     <>
+      <SpeedInsights />
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
